@@ -38,4 +38,56 @@
             </a>
         </div>
     </div>
+
+    <div class="text-center p-14 bg-gray-900 text-white">
+        <h2 class="text-2xl pb-5 text-l font-Rosario ">
+            We are experts!...
+        </h2>
+        <span class="font-extrabold block text-4xl py-1 font-JosefinSans">
+            Routines
+        </span>
+        <span class="font-extrabold block text-4xl py-1 font-JosefinSans">
+            Nutrition
+        </span>
+        <span class="font-extrabold block text-4xl py-1 font-JosefinSans">
+            Equipment
+        </span>
+    </div>
+
+    <div class="text-center py-14">
+        <span class="uppercase text-s text-gray-400 font-Rosario">
+            Blog
+        </span>
+        <h2 class="text-4xl font-bold py-10 font-JosefinSans">
+            Recent Posts
+        </h2>
+        <p class="m-auto w-4/5 text-gray-500 font-RobotoSlab font-light">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis in sapiente nesciunt, est enim non fugit
+            quidem nobis quos quisquam!
+        </p>
+    </div>
+
+    {{-- Dummy Blog Data --}}
+
+    <div class="sm:grid grid-cols-2 w-4/5 m-auto">
+        <div class="flex bg-yellow-700 text-gray-100 pt-10">
+            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+                <span class="uppercase text-xs">
+                    Beginner
+                </span>
+                <h3 class="text-xl font-bold py-10">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, error magni. Nam ipsum incidunt error
+                    laudantium nulla doloremque qui iure, obcaecati saepe!
+                </h3>
+                <a href=""
+                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">Find
+                    More Information
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <img src="https://cdn.pixabay.com/photo/2020/04/11/15/49/treadmill-5030966_960_720.jpg" width="700px">
+        </div>
+    </div>
 @endsection
