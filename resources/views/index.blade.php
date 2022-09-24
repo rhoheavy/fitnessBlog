@@ -33,7 +33,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, recusandae. Aspernatur ea itaque a possimus
                 quae consectetur neque sapiente?
             </p>
-            <a href="/blog" class="uppercase bg-red-800 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+            <a href="/blog" class="uppercase bg-red-700 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
                 Find Out More
             </a>
         </div>
