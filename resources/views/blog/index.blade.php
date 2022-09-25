@@ -29,7 +29,7 @@
     @foreach ($posts as $post)
         <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-14 border-b border-gray-200">
             <div>
-                <img src="https://cdn.pixabay.com/photo/2016/10/11/01/58/woman-1730325_960_720.jpg" width="700px">
+                <img src="{{ asset('images/' . $post->image_path) }}" width="700px">
             </div>
             <div>
                 <h2 class="text-gray-700 font-bold text-5xl pb-4">
