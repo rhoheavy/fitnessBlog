@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Post;
-
+use Cviebrock\EloquentSluggable\Services\SlugService;
 class PostController extends Controller
 {
     /**
@@ -45,7 +45,9 @@ class PostController extends Controller
         $newImageName = uniqid() . '-' . $request->title . '.'  . $request->image->extension();
         $request->image->move(public_path('images'), $newImageName);
 
-    
+        $slug = SlugService::createSlug(Post::class, 'slug', $request->title);
+
+        dd($slug);
 
     }
     
